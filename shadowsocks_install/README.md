@@ -20,11 +20,10 @@ https://teddysun.com/
 
 - 脚本说明: ShadowsocksR 一键安装/管理脚本，支持单端口/多端口切换和管理
 - 系统支持: Auto Install Shadowsocks(Python) Server for CentOS/Debian/Ubuntu
-- 使用方法: https://teddysun.com/342.html
 
 #### 下载安装:
 ``` bash
-wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+wget --no-check-certificate -O shadowsocks.sh https://github.com/CHNLion/teddysunBackup/blob/master/shadowsocks_install/shadowsocks.sh
 chmod +x shadowsocks.sh
 ./shadowsocks.sh 2>&1 | tee shadowsocks.log
 ```
@@ -75,11 +74,10 @@ chmod +x shadowsocks.sh
 
 - 脚本说明: Shadowsocks-go一键安装脚本
 - 系统支持: CentOS，Debian，Ubuntu
-- 使用方法: https://teddysun.com/392.html
 
 #### 下载安装:
 ``` bash
-wget --no-check-certificate -O shadowsocks-go.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go.sh
+wget --no-check-certificate -O shadowsocks-go.sh https://github.com/CHNLion/teddysunBackup/blob/master/shadowsocks_install/shadowsocks-go.sh
 chmod +x shadowsocks-go.sh
 ./shadowsocks-go.sh 2>&1 | tee shadowsocks-go.log
 ```
@@ -130,7 +128,7 @@ rc4-md5
 
 #### 下载安装:
 ``` bash
-wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
+wget --no-check-certificate https://github.com/CHNLion/teddysunBackup/blob/master/shadowsocks_install/shadowsocksR.sh
 chmod +x shadowsocksR.sh
 ./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
 ```
@@ -218,7 +216,7 @@ tls1.2_ticket_fastauth_compatible
 
 #### 下载安装:
 ``` bash
-wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+wget --no-check-certificate -O shadowsocks-all.sh https://github.com/CHNLion/teddysunBackup/blob/master/shadowsocks_install/shadowsocks-all.sh
 chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 ```
@@ -327,7 +325,7 @@ tls1.2_ticket_fastauth_compatible
 
 #### 下载安装:
 ``` bash
-wget --no-check-certificate -O shadowsocks-libev-debian.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev-debian.sh
+wget --no-check-certificate -O shadowsocks-libev-debian.sh https://github.com/CHNLion/teddysunBackup/blob/master/shadowsocks_install/shadowsocks-libev-debian.sh
 chmod +x shadowsocks-libev-debian.sh
 ./shadowsocks-libev-debian.sh 2>&1 | tee shadowsocks-libev-debian.log
 ```
@@ -363,7 +361,7 @@ chmod +x shadowsocks-libev-debian.sh
 
 #### 下载安装:
 ``` bash
-wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev.sh
+wget --no-check-certificate -O shadowsocks-libev.sh https://github.com/CHNLion/teddysunBackup/blob/master/shadowsocks_install/shadowsocks-libev.sh
 chmod +x shadowsocks-libev.sh
 ./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
 ```
@@ -406,7 +404,7 @@ rc4-md5
 
 #### 下载安装:
 ``` bash
-wget --no-check-certificate https://raw.githubusercontent.com/teddysun/across/master/l2tp.sh
+wget --no-check-certificate https://github.com/CHNLion/teddysunBackup/blob/master/shadowsocks_install/l2tp.sh
 chmod +x l2tp.sh
 ./l2tp.sh
 ```
@@ -433,7 +431,7 @@ service xl2tpd start|stop|restart （Debian/Ubuntu 下使用）
 
 #### 下载安装:
 ``` bash
-wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/haproxy.sh
+wget --no-check-certificate https://github.com/CHNLion/teddysunBackup/blob/master/shadowsocks_install/haproxy.sh
 chmod +x haproxy.sh
 ./haproxy.sh
 ```
@@ -466,7 +464,7 @@ rm -rf /etc/haproxy
 
 #### 下载安装:
 ``` bash
-wget --no-check-certificate https://github.com/teddysun/across/raw/master/kms.sh && chmod +x kms.sh && ./kms.sh
+wget --no-check-certificate https://github.com/CHNLion/teddysunBackup/blob/master/shadowsocks_install/kms.sh && chmod +x kms.sh && ./kms.sh
 ```
 使用命令：
 启动：/etc/init.d/kms start
